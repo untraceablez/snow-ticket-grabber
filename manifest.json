@@ -1,0 +1,19 @@
+{
+  "name": "Paste Ticket URL into Slack",
+  "version": "1.0",
+  "description": "Grabs a ticket URL from a tab in the active web browser based on the provided ticket number and pastes it into a Slack channel of the user's choice.",
+  "author": "Bard",
+  "commands": [
+    {
+      "name": "paste-ticket-url",
+      "description": "Pastes a ticket URL into Slack based on the provided ticket number.",
+      "args": [
+        {
+          "name": "ticketNumber",
+          "description": "The ticket number.",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}
